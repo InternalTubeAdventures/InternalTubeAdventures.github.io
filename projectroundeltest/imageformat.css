@@ -1,0 +1,31 @@
+
+.onecolumn {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+.twocolumns {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.threecolumns {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.fourcolumns {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
